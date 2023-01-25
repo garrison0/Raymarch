@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8334EBD52172F75400398038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334EBD42172F75400398038 /* AppDelegate.swift */; };
+		8334EBD72172F75400398038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334EBD62172F75400398038 /* ViewController.swift */; };
+		8334EBD92172F75400398038 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334EBD82172F75400398038 /* Renderer.swift */; };
+		8334EBDE2172F75600398038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8334EBDD2172F75600398038 /* Assets.xcassets */; };
+		8334EBE12172F75600398038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8334EBDF2172F75600398038 /* Main.storyboard */; };
+		8334EBEA2172FC4500398038 /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334EBE92172FC4500398038 /* VideoRecorder.swift */; };
+		8529CFDD26531CAA00E8FD22 /* 5nz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFD726531CAA00E8FD22 /* 5nz.png */; };
+		8529CFDE26531CAA00E8FD22 /* 1nx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFD826531CAA00E8FD22 /* 1nx.png */; };
+		8529CFDF26531CAA00E8FD22 /* 3ny.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFD926531CAA00E8FD22 /* 3ny.png */; };
+		8529CFE026531CAA00E8FD22 /* 0px.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFDA26531CAA00E8FD22 /* 0px.png */; };
+		8529CFE126531CAA00E8FD22 /* 2py.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFDB26531CAA00E8FD22 /* 2py.png */; };
+		8529CFE226531CAA00E8FD22 /* 4pz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529CFDC26531CAA00E8FD22 /* 4pz.png */; };
+		854F0A292695FE3400064A30 /* Concrete030_1K_Displacement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A192695FE3200064A30 /* Concrete030_1K_Displacement.jpg */; };
+		854F0A2C2695FE3400064A30 /* Metal011_1K_Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A1C2695FE3200064A30 /* Metal011_1K_Color.jpg */; };
+		854F0A2D2695FE3400064A30 /* Concrete030_1K_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A1D2695FE3200064A30 /* Concrete030_1K_Normal.jpg */; };
+		854F0A2E2695FE3400064A30 /* Concrete030_1K_Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A1E2695FE3300064A30 /* Concrete030_1K_Color.jpg */; };
+		854F0A2F2695FE3400064A30 /* Tiles106_1K_Roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A1F2695FE3300064A30 /* Tiles106_1K_Roughness.jpg */; };
+		854F0A302695FE3400064A30 /* Tiles106_1K_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A202695FE3300064A30 /* Tiles106_1K_Normal.jpg */; };
+		854F0A312695FE3400064A30 /* Metal011_1K_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A212695FE3300064A30 /* Metal011_1K_Normal.jpg */; };
+		854F0A322695FE3400064A30 /* Tiles106_1K_Displacement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A222695FE3300064A30 /* Tiles106_1K_Displacement.jpg */; };
+		854F0A332695FE3400064A30 /* Metal011_1K_Displacement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A232695FE3300064A30 /* Metal011_1K_Displacement.jpg */; };
+		854F0A352695FE3400064A30 /* Concrete030_1K_Roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A252695FE3300064A30 /* Concrete030_1K_Roughness.jpg */; };
+		854F0A362695FE3400064A30 /* Tiles106_1K_Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A262695FE3300064A30 /* Tiles106_1K_Color.jpg */; };
+		854F0A382695FE3400064A30 /* Metal011_1K_Roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A282695FE3400064A30 /* Metal011_1K_Roughness.jpg */; };
+		854F0A3D2696031E00064A30 /* Wood050_1K_Roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A392696031E00064A30 /* Wood050_1K_Roughness.jpg */; };
+		854F0A3E2696031E00064A30 /* Wood050_1K_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A3A2696031E00064A30 /* Wood050_1K_Normal.jpg */; };
+		854F0A3F2696031E00064A30 /* Wood050_1K_Displacement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A3B2696031E00064A30 /* Wood050_1K_Displacement.jpg */; };
+		854F0A402696031E00064A30 /* Wood050_1K_Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 854F0A3C2696031E00064A30 /* Wood050_1K_Color.jpg */; };
+		858642842649F70A00A2BC2F /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 858642832649F70A00A2BC2F /* Shaders.metal */; };
+		85BA8285267A5BC3005F9EE5 /* TAAShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 85BA8284267A5BC3005F9EE5 /* TAAShaders.metal */; };
+		85BA8287267A9F36005F9EE5 /* Common.metal in Sources */ = {isa = PBXBuildFile; fileRef = 85BA8286267A9F36005F9EE5 /* Common.metal */; };
+		85BA828A267AA1FB005F9EE5 /* SDFs.metal in Sources */ = {isa = PBXBuildFile; fileRef = 85BA8289267AA1FB005F9EE5 /* SDFs.metal */; };
+		85BA828D267AA436005F9EE5 /* Clouds.metal in Sources */ = {isa = PBXBuildFile; fileRef = 85BA828C267AA436005F9EE5 /* Clouds.metal */; };
+		85BA828F267ACDED005F9EE5 /* Composite.metal in Sources */ = {isa = PBXBuildFile; fileRef = 85BA828E267ACDED005F9EE5 /* Composite.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8334EBD12172F75400398038 /* MetalOfflineRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalOfflineRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8334EBD42172F75400398038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8334EBD62172F75400398038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8334EBD82172F75400398038 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		8334EBDC2172F75400398038 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		8334EBDD2172F75600398038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8334EBE02172F75600398038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8334EBE22172F75600398038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8334EBE32172F75600398038 /* MetalOfflineRecording.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalOfflineRecording.entitlements; sourceTree = "<group>"; };
+		8334EBE92172FC4500398038 /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorder.swift; sourceTree = "<group>"; };
+		8529CFD726531CAA00E8FD22 /* 5nz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5nz.png; sourceTree = "<group>"; };
+		8529CFD826531CAA00E8FD22 /* 1nx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1nx.png; sourceTree = "<group>"; };
+		8529CFD926531CAA00E8FD22 /* 3ny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3ny.png; sourceTree = "<group>"; };
+		8529CFDA26531CAA00E8FD22 /* 0px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0px.png; sourceTree = "<group>"; };
+		8529CFDB26531CAA00E8FD22 /* 2py.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2py.png; sourceTree = "<group>"; };
+		8529CFDC26531CAA00E8FD22 /* 4pz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4pz.png; sourceTree = "<group>"; };
+		854F0A192695FE3200064A30 /* Concrete030_1K_Displacement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concrete030_1K_Displacement.jpg; sourceTree = "<group>"; };
+		854F0A1C2695FE3200064A30 /* Metal011_1K_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal011_1K_Color.jpg; sourceTree = "<group>"; };
+		854F0A1D2695FE3200064A30 /* Concrete030_1K_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concrete030_1K_Normal.jpg; sourceTree = "<group>"; };
+		854F0A1E2695FE3300064A30 /* Concrete030_1K_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concrete030_1K_Color.jpg; sourceTree = "<group>"; };
+		854F0A1F2695FE3300064A30 /* Tiles106_1K_Roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiles106_1K_Roughness.jpg; sourceTree = "<group>"; };
+		854F0A202695FE3300064A30 /* Tiles106_1K_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiles106_1K_Normal.jpg; sourceTree = "<group>"; };
+		854F0A212695FE3300064A30 /* Metal011_1K_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal011_1K_Normal.jpg; sourceTree = "<group>"; };
+		854F0A222695FE3300064A30 /* Tiles106_1K_Displacement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiles106_1K_Displacement.jpg; sourceTree = "<group>"; };
+		854F0A232695FE3300064A30 /* Metal011_1K_Displacement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal011_1K_Displacement.jpg; sourceTree = "<group>"; };
+		854F0A252695FE3300064A30 /* Concrete030_1K_Roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concrete030_1K_Roughness.jpg; sourceTree = "<group>"; };
+		854F0A262695FE3300064A30 /* Tiles106_1K_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiles106_1K_Color.jpg; sourceTree = "<group>"; };
+		854F0A282695FE3400064A30 /* Metal011_1K_Roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal011_1K_Roughness.jpg; sourceTree = "<group>"; };
+		854F0A392696031E00064A30 /* Wood050_1K_Roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood050_1K_Roughness.jpg; sourceTree = "<group>"; };
+		854F0A3A2696031E00064A30 /* Wood050_1K_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood050_1K_Normal.jpg; sourceTree = "<group>"; };
+		854F0A3B2696031E00064A30 /* Wood050_1K_Displacement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood050_1K_Displacement.jpg; sourceTree = "<group>"; };
+		854F0A3C2696031E00064A30 /* Wood050_1K_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood050_1K_Color.jpg; sourceTree = "<group>"; };
+		858642832649F70A00A2BC2F /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		858EF07D26250A5F0025E9BC /* OK.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OK.entitlements; sourceTree = "<group>"; };
+		85BA8284267A5BC3005F9EE5 /* TAAShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = TAAShaders.metal; sourceTree = "<group>"; };
+		85BA8286267A9F36005F9EE5 /* Common.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Common.metal; sourceTree = "<group>"; };
+		85BA8288267AA003005F9EE5 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		85BA8289267AA1FB005F9EE5 /* SDFs.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SDFs.metal; sourceTree = "<group>"; };
+		85BA828B267AA20E005F9EE5 /* SDFs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFs.h; sourceTree = "<group>"; };
+		85BA828C267AA436005F9EE5 /* Clouds.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Clouds.metal; sourceTree = "<group>"; };
+		85BA828E267ACDED005F9EE5 /* Composite.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Composite.metal; sourceTree = "<group>"; };
+		85FAE597264788B100832C1E /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8334EBCE2172F75400398038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8334EBC82172F75400398038 = {
+			isa = PBXGroup;
+			children = (
+				8334EBD32172F75400398038 /* MetalOfflineRecording */,
+				8334EBD22172F75400398038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8334EBD22172F75400398038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8334EBD12172F75400398038 /* MetalOfflineRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8334EBD32172F75400398038 /* MetalOfflineRecording */ = {
+			isa = PBXGroup;
+			children = (
+				8334EBD42172F75400398038 /* AppDelegate.swift */,
+				85BA8269266EA35B005F9EE5 /* Textures */,
+				8334EBD62172F75400398038 /* ViewController.swift */,
+				8334EBD82172F75400398038 /* Renderer.swift */,
+				85FAE597264788B100832C1E /* ShaderTypes.h */,
+				8334EBE92172FC4500398038 /* VideoRecorder.swift */,
+				858EF06926250A5F0025E9BC /* Images */,
+				8334EBDC2172F75400398038 /* ShaderTypes.h */,
+				8334EBDD2172F75600398038 /* Assets.xcassets */,
+				8334EBDF2172F75600398038 /* Main.storyboard */,
+				8334EBE22172F75600398038 /* Info.plist */,
+				8334EBE32172F75600398038 /* MetalOfflineRecording.entitlements */,
+				858642832649F70A00A2BC2F /* Shaders.metal */,
+				85BA8284267A5BC3005F9EE5 /* TAAShaders.metal */,
+				85BA8286267A9F36005F9EE5 /* Common.metal */,
+				85BA8288267AA003005F9EE5 /* Common.h */,
+				85BA8289267AA1FB005F9EE5 /* SDFs.metal */,
+				85BA828B267AA20E005F9EE5 /* SDFs.h */,
+				85BA828C267AA436005F9EE5 /* Clouds.metal */,
+				85BA828E267ACDED005F9EE5 /* Composite.metal */,
+			);
+			path = MetalOfflineRecording;
+			sourceTree = "<group>";
+		};
+		858EF06926250A5F0025E9BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8529CFDA26531CAA00E8FD22 /* 0px.png */,
+				8529CFD826531CAA00E8FD22 /* 1nx.png */,
+				8529CFDB26531CAA00E8FD22 /* 2py.png */,
+				8529CFD926531CAA00E8FD22 /* 3ny.png */,
+				8529CFDC26531CAA00E8FD22 /* 4pz.png */,
+				8529CFD726531CAA00E8FD22 /* 5nz.png */,
+				858EF07D26250A5F0025E9BC /* OK.entitlements */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		85BA8269266EA35B005F9EE5 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				854F0A1E2695FE3300064A30 /* Concrete030_1K_Color.jpg */,
+				854F0A192695FE3200064A30 /* Concrete030_1K_Displacement.jpg */,
+				854F0A1D2695FE3200064A30 /* Concrete030_1K_Normal.jpg */,
+				854F0A252695FE3300064A30 /* Concrete030_1K_Roughness.jpg */,
+				854F0A1C2695FE3200064A30 /* Metal011_1K_Color.jpg */,
+				854F0A232695FE3300064A30 /* Metal011_1K_Displacement.jpg */,
+				854F0A212695FE3300064A30 /* Metal011_1K_Normal.jpg */,
+				854F0A282695FE3400064A30 /* Metal011_1K_Roughness.jpg */,
+				854F0A262695FE3300064A30 /* Tiles106_1K_Color.jpg */,
+				854F0A222695FE3300064A30 /* Tiles106_1K_Displacement.jpg */,
+				854F0A202695FE3300064A30 /* Tiles106_1K_Normal.jpg */,
+				854F0A1F2695FE3300064A30 /* Tiles106_1K_Roughness.jpg */,
+				854F0A3C2696031E00064A30 /* Wood050_1K_Color.jpg */,
+				854F0A3B2696031E00064A30 /* Wood050_1K_Displacement.jpg */,
+				854F0A3A2696031E00064A30 /* Wood050_1K_Normal.jpg */,
+				854F0A392696031E00064A30 /* Wood050_1K_Roughness.jpg */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8334EBD02172F75400398038 /* MetalOfflineRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8334EBE62172F75600398038 /* Build configuration list for PBXNativeTarget "MetalOfflineRecording" */;
+			buildPhases = (
+				8334EBCD2172F75400398038 /* Sources */,
+				8334EBCE2172F75400398038 /* Frameworks */,
+				8334EBCF2172F75400398038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalOfflineRecording;
+			productName = MetalOfflineRecording;
+			productReference = 8334EBD12172F75400398038 /* MetalOfflineRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8334EBC92172F75400398038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Warren Moore";
+				TargetAttributes = {
+					8334EBD02172F75400398038 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 8334EBCC2172F75400398038 /* Build configuration list for PBXProject "MetalOfflineRecording" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8334EBC82172F75400398038;
+			productRefGroup = 8334EBD22172F75400398038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8334EBD02172F75400398038 /* MetalOfflineRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8334EBCF2172F75400398038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854F0A3F2696031E00064A30 /* Wood050_1K_Displacement.jpg in Resources */,
+				854F0A2F2695FE3400064A30 /* Tiles106_1K_Roughness.jpg in Resources */,
+				854F0A322695FE3400064A30 /* Tiles106_1K_Displacement.jpg in Resources */,
+				8529CFE226531CAA00E8FD22 /* 4pz.png in Resources */,
+				854F0A362695FE3400064A30 /* Tiles106_1K_Color.jpg in Resources */,
+				854F0A332695FE3400064A30 /* Metal011_1K_Displacement.jpg in Resources */,
+				8529CFE026531CAA00E8FD22 /* 0px.png in Resources */,
+				854F0A2E2695FE3400064A30 /* Concrete030_1K_Color.jpg in Resources */,
+				854F0A312695FE3400064A30 /* Metal011_1K_Normal.jpg in Resources */,
+				8529CFDD26531CAA00E8FD22 /* 5nz.png in Resources */,
+				854F0A2D2695FE3400064A30 /* Concrete030_1K_Normal.jpg in Resources */,
+				854F0A302695FE3400064A30 /* Tiles106_1K_Normal.jpg in Resources */,
+				854F0A352695FE3400064A30 /* Concrete030_1K_Roughness.jpg in Resources */,
+				854F0A3D2696031E00064A30 /* Wood050_1K_Roughness.jpg in Resources */,
+				854F0A402696031E00064A30 /* Wood050_1K_Color.jpg in Resources */,
+				8529CFE126531CAA00E8FD22 /* 2py.png in Resources */,
+				8529CFDF26531CAA00E8FD22 /* 3ny.png in Resources */,
+				854F0A2C2695FE3400064A30 /* Metal011_1K_Color.jpg in Resources */,
+				8529CFDE26531CAA00E8FD22 /* 1nx.png in Resources */,
+				854F0A382695FE3400064A30 /* Metal011_1K_Roughness.jpg in Resources */,
+				854F0A292695FE3400064A30 /* Concrete030_1K_Displacement.jpg in Resources */,
+				8334EBDE2172F75600398038 /* Assets.xcassets in Resources */,
+				8334EBE12172F75600398038 /* Main.storyboard in Resources */,
+				854F0A3E2696031E00064A30 /* Wood050_1K_Normal.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8334EBCD2172F75400398038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8334EBD72172F75400398038 /* ViewController.swift in Sources */,
+				85BA8285267A5BC3005F9EE5 /* TAAShaders.metal in Sources */,
+				8334EBEA2172FC4500398038 /* VideoRecorder.swift in Sources */,
+				85BA828A267AA1FB005F9EE5 /* SDFs.metal in Sources */,
+				85BA828D267AA436005F9EE5 /* Clouds.metal in Sources */,
+				8334EBD92172F75400398038 /* Renderer.swift in Sources */,
+				85BA8287267A9F36005F9EE5 /* Common.metal in Sources */,
+				8334EBD52172F75400398038 /* AppDelegate.swift in Sources */,
+				858642842649F70A00A2BC2F /* Shaders.metal in Sources */,
+				85BA828F267ACDED005F9EE5 /* Composite.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8334EBDF2172F75600398038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8334EBE02172F75600398038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8334EBE42172F75600398038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8334EBE52172F75600398038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8334EBE72172F75600398038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MetalOfflineRecording/MetalOfflineRecording.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MetalOfflineRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metalbyexample.MetalOfflineRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MetalOfflineRecording/ShaderTypes.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8334EBE82172F75600398038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MetalOfflineRecording/MetalOfflineRecording.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MetalOfflineRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metalbyexample.MetalOfflineRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MetalOfflineRecording/ShaderTypes.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8334EBCC2172F75400398038 /* Build configuration list for PBXProject "MetalOfflineRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334EBE42172F75600398038 /* Debug */,
+				8334EBE52172F75600398038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8334EBE62172F75600398038 /* Build configuration list for PBXNativeTarget "MetalOfflineRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334EBE72172F75600398038 /* Debug */,
+				8334EBE82172F75600398038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8334EBC92172F75400398038 /* Project object */;
+}
